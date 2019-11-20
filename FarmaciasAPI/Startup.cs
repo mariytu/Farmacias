@@ -32,7 +32,7 @@ namespace FarmaciasAPI
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             // Set up dependency injection for controller's logger
-            services.AddScoped<ILogger, Logger<FarmaciasController>>();
+            //services.AddScoped<ILogger, Logger<FarmaciasController>>();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(options =>
@@ -62,8 +62,8 @@ namespace FarmaciasAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-                app.UseDeveloperExceptionPage();
+            //if (env.IsDevelopment())
+            app.UseDeveloperExceptionPage();
 
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
@@ -74,8 +74,9 @@ namespace FarmaciasAPI
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Farmacias API v1");
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseStaticFiles();
         }
     }
 }
