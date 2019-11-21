@@ -1,0 +1,264 @@
+﻿
+/*
+    Override select2 style
+*/
+.select2-container--default .select2-selection--single {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 34px;
+    padding-left: 9px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    top: 5px;
+}
+
+.skin-3 .btn-primary {
+    border-color: #588E7C;
+    background-color: #588E7C;
+}
+.skin-3 .btn-primary:hover,
+.skin-3 .btn-primary:focus,
+.skin-3 .btn-primary:active,
+.skin-3 .btn-primary.active,
+.skin-3 .open .dropdown-toggle.btn-primary,
+.skin-3 .btn-primary:active:focus,
+.skin-3 .btn-primary:active:hover,
+.skin-3 .btn-primary.active:hover,
+.skin-3 .btn-primary.active:focus {
+    background-color: #4b796a;
+    border-color: #4b796a;
+    color: #fff;
+}
+.skin-3 .btn-default {
+    border-color: #969696;
+    background-color: #969696;
+    color: #fff;
+}
+.skin-3 .btn-default:hover,
+.skin-3 .btn-default:focus,
+.skin-3 .btn-default:active,
+.skin-3 .btn-default.active,
+.skin-3 .open .dropdown-toggle.btn-default,
+.skin-3 .btn-default:active:focus,
+.skin-3 .btn-default:active:hover,
+.skin-3 .btn-default.active:hover,
+.skin-3 .btn-default.active:focus {
+    background-color: #777777;
+    border-color: #777777;
+    color: #fff;
+}
+.skin-3 .label-primary, .badge-primary {
+    background-color: #588E7C;
+}
+.skin-3 .alert-success {
+    color: #588e7c;
+    background-color: #588e7c3d;
+    border-color: #588e7c6b;
+}
+.bg-white {
+    color: #fff;
+}
+
+.contact-box a.btn {
+    color: #fff;
+}
+.select2-container--default {
+    width: -webkit-fill-available !important;
+}
+.select2-selection.select2-selection--single {
+    border: 1px solid #e5e6e7;
+}
+
+/* Masonry */
+.grid .ibox {
+    margin-bottom: 0;
+}
+.grid-item {
+    margin-bottom: 25px;
+    width: 320px;
+}
+
+.color-primary {
+    color: #1ab394;
+}
+.color-warning {
+    color: #f8ac59;
+}
+.color-danger {
+    color: #ed5565;
+}
+
+/* Login layout */
+.photos {
+    padding-top: 50px;
+}
+.feed-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-left: 78px;
+}
+.middle-box {
+    padding-top: 20px;
+}
+.no-action {
+    cursor: default;
+}
+
+.label-info, .badge-info {
+    background-color: #6b5171;
+}
+.btn-info {
+    background-color: #6b5171;
+    border-color: #6b5171;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info, .btn-info:active:focus, .btn-info:active:hover, .btn-info.active:hover, .btn-info.active:focus {
+    background-color: #5e4763;
+    border-color: #5e4763;
+    color: #fff;
+}
+
+.btn-state-info {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    position: relative;
+    bottom: -14px;
+    right: 14px;
+}
+.btn-state-info > i {
+    font-size: 0.8em;
+}
+.dt-auto-req {
+    padding-bottom: 20px;
+    width: fit-content !important;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.pageSize-option {
+    position: relative;
+    right: 10px;
+    bottom: 40px;
+}
+.pageSize-container {
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.btn-ver-mas {
+    background-color: #3E2C42;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.btn-ver-mas:hover,
+.btn-ver-mas:focus,
+.btn-ver-mas:active,
+.btn-ver-mas.active,
+.open .dropdown-toggle.btn-ver-mas,
+.btn-ver-mas:active:focus,
+.btn-ver-mas:active:hover,
+.btn-ver-mas.active:hover,
+.btn-ver-mas.active:focus {
+    background-color: #5e4763;
+    border-color: #5e4763;
+    color: #fff;
+}
+
+#en-proceso,
+#firmados,
+#rechazados {
+    margin-top: -20px;
+}
+
+.skin-3 .navbar-static-top {
+    background: #f4f6fa;
+}
+
+/* Estilo Ver Documento */
+.info-documento {
+    padding-bottom: 0px !important;
+}
+.contenido-documento {
+    margin-bottom: 20px;
+    padding-top: 0px !important;
+}
+
+/* Estilo Ver Credenciales */
+.info-ver-credencial {
+    padding: 3px 0px;
+}
+.signature-image {
+    width: 73%;
+    height: 73%;
+}
+
+/* Profile initials */
+.profile-image .circle {
+    background: #422F43;
+    border-radius: 50%;
+    color: white;
+    height: 96px;
+    width: 96px;
+    border: 6px solid #FFFFFF;
+    border-radius: 50%;
+}
+.profile-image .caption-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+.ibox-primary {
+    background: #588E7C;
+    color: white;
+}
+
+/* Pagination */
+.pagination .footable-page-arrow.active a {
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: white;
+}
+.pagination > li > button {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: inherit;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+}
+.pagination > li:last-child > button {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.pagination > li > button:focus,
+.pagination > li > button:hover {
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.pagination > .disabled > button,
+.pagination > .disabled > button:focus,
+.pagination > .disabled > button:hover {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.wrap-text {
+    overflow-wrap: break-word;
+}
+.description-req {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.1;
+    max-height: 50px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

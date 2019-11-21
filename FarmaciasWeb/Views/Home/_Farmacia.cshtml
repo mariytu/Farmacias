@@ -1,0 +1,19 @@
+﻿@model FarmaciasCore.DTO.FarmaciasDTO
+
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => Model.NombreLocal)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.DireccionLocal)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.TelefonoLocal)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.UbicacionLocal.Lat)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.UbicacionLocal.Lng)
+    </td>
+</tr>

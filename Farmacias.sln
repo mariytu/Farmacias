@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciasAPI", "FarmaciasAPI\FarmaciasAPI.csproj", "{3724A612-D342-4E5C-B692-7E3300BFCD70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmaciasAPI", "FarmaciasAPI\FarmaciasAPI.csproj", "{3724A612-D342-4E5C-B692-7E3300BFCD70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciasWeb", "FarmaciasWeb\FarmaciasWeb.csproj", "{F8AB460E-74DA-4A20-A424-45152C157ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciasCore", "FarmaciasCore\FarmaciasCore.csproj", "{B0D44506-875E-4309-AFB1-B63401705CC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3724A612-D342-4E5C-B692-7E3300BFCD70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3724A612-D342-4E5C-B692-7E3300BFCD70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3724A612-D342-4E5C-B692-7E3300BFCD70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AB460E-74DA-4A20-A424-45152C157ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AB460E-74DA-4A20-A424-45152C157ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AB460E-74DA-4A20-A424-45152C157ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AB460E-74DA-4A20-A424-45152C157ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D44506-875E-4309-AFB1-B63401705CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D44506-875E-4309-AFB1-B63401705CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D44506-875E-4309-AFB1-B63401705CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D44506-875E-4309-AFB1-B63401705CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
